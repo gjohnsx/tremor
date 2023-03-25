@@ -78,7 +78,7 @@ const DeltaBar = React.forwardRef<HTMLDivElement, DeltaBarProps>((props, ref) =>
             makeDeltaBarClassName("separator"),
             "ring-2 z-10",
             getColorClassNames(DEFAULT_COLOR, colorPalette.background).bgColor,
-            getColorClassNames("white").ringColor,
+            getColorClassNames("red").ringColor,
             sizing.md.height,
             sizing.twoXs.width,
             borderRadius.lg.all,
